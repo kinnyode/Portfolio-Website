@@ -1,6 +1,6 @@
 @font-face {
   font-family: myfont;
-  src: url(Cygre-Book-BF63eeebf814697.ttf);
+  src: url(SpaceGrotesk-Light.ttf);
 }
 .header p {
   color: black;
@@ -26,7 +26,7 @@ body {
 .header {
   width: 100%;
   padding: 10px;
-  box-shadow: 0px 5px 15px rgb(205, 205, 205);
+  box-shadow: 0px 5px 15px rgb(31 24 24 / 44%);
   background-color: rgb(255, 255, 255);
   position: fixed;
   overflow: hidden;
@@ -186,7 +186,7 @@ body {
 .content1 {
   display: flex;
   flex-direction: column;
-  padding-left: 30px;
+  padding-left: 70px;
 }
 
 .services {
