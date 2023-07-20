@@ -1,0 +1,326 @@
+@font-face {
+  font-family: myfont;
+  src: url(Cygre-Book-BF63eeebf814697.ttf);
+}
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: myfont;
+  scroll-behavior: smooth;
+  transition: 0.2s;
+}
+
+.logo a {
+  color: black;
+  text-decoration: none;
+}
+
+.assetscont {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0px 5px 15px rgba(196, 196, 196, 0.849);
+  position: fixed;
+  overflow: hidden;
+  z-index: 999999999999999999999999999999999999999999999999;
+  background: white;
+}
+
+.header p {
+  font-size: 15px;
+}
+
+.navlinks {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 5px;
+  justify-content: space-around;
+  gap: 30px;
+}
+.links2 {
+  display: flex;
+  gap: 40px;
+  font-size: 12px;
+  align-items: center;
+}
+.links2 a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.links3 {
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  font-size: 13px;
+}
+
+.linkss {
+  display: flex;
+  gap: 40px;
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.viewapp:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 1px solid #fff;
+}
+
+.viewapp {
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  transition: 0.5s;
+  text-align: center;
+  border-radius: 200px;
+  justify-content: center;
+  background: #000000;
+}
+
+.bodysection {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  color: white;
+  border: 1px solid black;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 90px;
+  flex-direction: column;
+}
+
+.assets {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  gap: 15px;
+  color: #000000;
+}
+
+.textdiv {
+  color: #ffffff;
+}
+.alignend {
+  width: 100%;
+  justify-content: end;
+  display: flex;
+}
+
+.alignend img {
+  width: 20%;
+}
+
+.assets h2 {
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.container {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.textdiv {
+  width: 45%;
+  box-shadow: 0px 5px 15px rgb(177, 177, 177);
+  border-radius: 3px;
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+  transition: 0.4s;
+  color: #000000;
+}
+
+.textdiv:hover {
+  transform: scale(1.03);
+
+  cursor: default;
+}
+
+.text1 h6 {
+  border: 1px solid rgb(53, 53, 53);
+}
+
+.customersec {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url(white-cloud-sky-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000000;
+  flex-direction: column;
+}
+
+.customertext {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 30px;
+}
+
+.customertext h2 {
+  margin-top: 40px;
+  font-size: 25px;
+}
+
+.customertext h4 {
+  font-weight: 100;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.threeboxes {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes enter-animation {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .threeboxes-animation {
+    animation: enter-animation 0.8s 1;
+  }
+}
+
+.box1 {
+  margin-top: 30px;
+  width: 50%;
+  border: 1px solid rgb(36, 36, 36);
+  display: flex;
+  padding-left: 20px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.box1 img {
+  width: 50%;
+}
+
+.box1 p {
+  width: 100%;
+  font-size: 20px;
+}
+
+.nametag h3 {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 701px) {
+  h1 {
+    font-weight: 500;
+  }
+  h3 {
+    font-weight: 300;
+  }
+  .textdiv {
+    width: 90%;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .assets h1 {
+    font-size: 20px;
+  }
+
+  .assets h2 {
+    font-size: 13px;
+  }
+
+  .discover {
+    display: none;
+  }
+
+  .threeboxes {
+    flex-direction: column;
+  }
+
+  .box1 {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .customersec {
+    height: 100%;
+  }
+
+  .assets {
+    gap: 10px;
+  }
+
+  .textdiv p {
+    font-size: 11px;
+    font-weight: 100;
+  }
+
+  .customertext {
+    padding-left: 0px;
+    align-items: center;
+  }
+
+  .customertext h2 {
+    font-size: 20px;
+  }
+}
