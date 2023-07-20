@@ -17,6 +17,13 @@ body {
   transition: 0.2s;
 }
 
+.gapping {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+}
+
 .logo a {
   color: black;
   text-decoration: none;
@@ -185,7 +192,8 @@ body {
 }
 
 .text1 h6 {
-  border: 1px solid rgb(53, 53, 53);
+  margin-top: 10px;
+  border: 0.5px solid rgb(167, 167, 167);
 }
 
 .customersec {
@@ -307,7 +315,7 @@ body {
   }
 
   .assets {
-    gap: 10px;
+    gap: 5px;
   }
 
   .textdiv p {

@@ -118,7 +118,7 @@ body {
   scroll-snap-type: mandatory;
   width: 100%;
   background-image: url(img/3548512.jpg);
-  background-attachment: fixed;
+
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -191,7 +191,7 @@ body {
 
 .services {
   margin-top: 20px;
-  gap: 15px;
+  gap: 10px;
   display: flex;
   flex-direction: column;
   color: black;
@@ -376,6 +376,9 @@ body {
 }
 
 @media screen and (max-width: 700px) {
+  .bodysection {
+    background-attachment: none;
+  }
   .servicessection {
     flex-direction: column;
     padding: 0px;
@@ -392,11 +395,11 @@ body {
   }
 
   .projectbox1 img {
-    width: 80%;
+    width: 100%;
   }
 
   .box1 {
-    width: 90%;
+    width: 80%;
   }
 
   .services h1 {
@@ -438,7 +441,6 @@ body {
   }
 
   .assets {
-    gap: 5px;
     padding-left: 0px;
   }
 
@@ -451,7 +453,7 @@ body {
   }
 
   .box1assets h1 {
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .box1assets h2 {
@@ -476,5 +478,14 @@ body {
 
   .discover {
     display: none;
+  }
+
+  .assets h1,
+  .assets h2 {
+    font-weight: 500;
+  }
+
+  .assets h3 {
+    font-weight: 100;
   }
 }
