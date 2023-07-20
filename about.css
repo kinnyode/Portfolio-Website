@@ -284,8 +284,8 @@ body {
     font-weight: 300;
   }
   .textdiv {
-    width: 90%;
-    margin-top: 50px;
+    width: 95%;
+
     text-align: center;
   }
 
@@ -315,11 +315,11 @@ body {
   }
 
   .assets {
-    gap: 5px;
+    gap: 7px;
   }
 
   .textdiv p {
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 100;
   }
 
