@@ -25,7 +25,6 @@ body {
 
 .header {
   width: 100%;
-  padding: 10px;
   box-shadow: 0px 5px 15px rgb(31 24 24 / 44%);
   background-color: rgb(255, 255, 255);
   position: fixed;
@@ -48,6 +47,7 @@ body {
   padding: 5px;
   justify-content: space-around;
   gap: 30px;
+  padding: 15px;
 }
 .links2 {
   display: flex;
@@ -276,9 +276,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
   width: 100%;
   margin-top: 80px;
+  height: 100vh;
 }
 .threeprojectsboxes h2 {
 }
@@ -298,7 +299,17 @@ body {
 .projectbox1 {
   display: flex;
   width: 100%;
-  height: 500px;
+  height: 85vh;
+  flex-direction: column;
+  box-shadow: 0px 5px 15px rgba(172, 172, 172, 0.868);
+  justify-content: center;
+  align-items: center;
+}
+
+.projectbox2 {
+  display: flex;
+  width: 95%;
+  height: 80%;
   flex-direction: column;
 
   box-shadow: 0px 5px 15px rgba(172, 172, 172, 0.868);
@@ -376,7 +387,210 @@ body {
   }
 }
 
+.prefooter {
+  width: 100%;
+  height: 60vh;
+  background-image: url(img/creative-wallpaper-with-white-shapes.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+}
+
+.preasset1 {
+  width: 100%;
+  font-size: 35px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: rgb(0, 0, 0);
+}
+
+.prefooterassets {
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.letstalk {
+  width: 250px;
+  height: fit-content;
+  padding: 22px;
+  border-radius: 300px;
+  font-size: 30px;
+  border-radius: 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(0, 0, 0);
+  gap: 5px;
+  transition: 0.4s;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-family: myfont;
+}
+.letstalk:hover {
+  background-color: #000000;
+  color: white;
+  mix-blend-mode: inherit;
+  border: 1px solid transparent;
+  font-family: myfont;
+}
+
+.letstalk img {
+  width: 15%;
+  object-fit: contain;
+  height: 100%;
+  display: none;
+}
+
+.footersection {
+  display: flex;
+  background-color: #ffffff;
+  width: 100%;
+  color: #ffffff;
+}
+
+.purplebox img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.fourfooters {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 15px;
+  width: 100%;
+  color: #000000;
+}
+
+.footer1 img {
+  width: 30%;
+  padding-left: 10px;
+}
+.footer1 p {
+  color: black;
+}
+
+input {
+  padding: 15px;
+  border: 0px solid rgb(0, 0, 0);
+  background-color: rgb(27, 27, 27);
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-family: myfont;
+}
+
+.inputsec {
+  display: flex;
+  gap: -3px;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  border: 1px solid rgb(11, 11, 11);
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  width: 120px;
+  cursor: pointer;
+  transition: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  font-family: myfont;
+}
+
+button:hover {
+  background-color: #851c1c;
+  border: 1px solid transparent;
+}
+.footerborder {
+  border: 1px solid rgb(101, 101, 101);
+  width: 90%;
+}
+
+.lastfooter {
+  display: flex;
+  background-color: #ffffff;
+  width: 100%;
+  color: #000000;
+  height: 20vh;
+}
+
+.footerassets {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.footerassets img {
+  width: 8%;
+  object-fit: contain;
+}
+
+.footer1 a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.footerrr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+}
+
+.projectassets2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  font-size: 20px;
+}
+
 @media screen and (max-width: 700px) {
+  .projectassets2 p {
+    font-size: 15px;
+  }
+  .projectbox1 {
+    width: 100%;
+  }
+
+  .letstalk {
+    width: 150px;
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  .preasset1 h1 {
+    font-size: 25px;
+    font-weight: 400;
+  }
+
   .bodysection {
     background-attachment: none;
   }
@@ -496,5 +710,61 @@ body {
 
   .assets h3 {
     font-weight: 100;
+  }
+
+  .letstalk {
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .letstalk img {
+    width: 15%;
+  }
+
+  .h1tag {
+    align-items: center;
+  }
+
+  .footer1 p {
+    font-size: 13px;
+  }
+
+  .lastfooter {
+    height: 10vh;
+  }
+  .fourfooters {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footerassets {
+    font-size: 10px;
+  }
+
+  .newsection {
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .footer1 img {
+    width: 15%;
+    padding-left: 0px;
+  }
+  .imgassets h2 {
+    font-size: 30px;
+  }
+
+  .imgassets {
+    gap: 15px;
+  }
+
+  .imgassets p {
+    font-size: 15px;
+  }
+  a .twoimages {
+    flex-direction: column;
   }
 }
