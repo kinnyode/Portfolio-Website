@@ -58,7 +58,7 @@ body {
   padding: 5px;
   justify-content: space-around;
   gap: 30px;
-  padding: 15px;
+  padding: 20px;
 }
 .links2 {
   display: flex;
@@ -296,7 +296,7 @@ p {
 
 .assets {
   gap: 7px;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 @media screen and (max-width: 701px) {
