@@ -138,7 +138,7 @@ body {
 
 .twosections {
   display: flex;
-  gap: 40px;
+  gap: 50px;
   padding: 20px;
   background-color: rgb(255, 255, 255);
   height: 70vh;
@@ -273,7 +273,7 @@ p {
   display: flex;
   justify-content: center;
   padding: 15px;
-  height: 70vh;
+  height: 55vh;
 }
 
 .imglogos {

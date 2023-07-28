@@ -117,7 +117,7 @@ body {
   scroll-behavior: smooth;
   scroll-snap-type: mandatory;
   width: 100%;
-  background-image: url(img/resource-database--R7raVu_isU-unsplash.jpg);
+  background-image: url(img/Architecture/pexels-steve-johnson-9841363.jpg);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -149,19 +149,19 @@ body {
 }
 
 .assets h1 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   width: 100%;
   font-size: 60px;
 }
 
 .assets h2 {
-  color: #000000;
+  color: #ffffff;
   width: 100%;
   font-size: 60px;
 }
 
 .assets h3 {
-  color: #000000;
+  color: #ffffff;
   width: 100%;
   font-size: 20px;
   font-weight: 200;
@@ -391,7 +391,7 @@ body {
   height: 70vh;
   background-image: url(img/creative-wallpaper-with-white-shapes.jpg);
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   display: flex;
   justify-content: space-around;
