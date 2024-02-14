@@ -1,6 +1,6 @@
 @font-face {
   font-family: myfont;
-  src: url(SpaceGrotesk-Light.ttf);
+  src: url(MabryPro-Light.ttf);
 }
 
 *,
@@ -92,6 +92,7 @@ body {
 .links a {
   text-decoration: none;
   color: rgb(0, 0, 0);
+  font-size: 15px;
 }
 
 .viewapp:hover {

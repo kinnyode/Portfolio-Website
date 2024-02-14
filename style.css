@@ -1,6 +1,11 @@
 @font-face {
   font-family: myfont;
-  src: url(SpaceGrotesk-Light.ttf);
+  src: url(MabryPro-Light.ttf);
+}
+
+@font-face {
+  font-family: myfont2;
+  src: url(MabryPro-Regular.ttf);
 }
 .header p {
   color: black;
@@ -17,6 +22,9 @@ body {
   font-family: myfont;
   scroll-behavior: smooth;
   transition: 0.2s;
+}
+.headertexts {
+  font-family: myfont2;
 }
 
 .logo img {
@@ -58,6 +66,7 @@ body {
 .links2 a {
   text-decoration: none;
   color: rgb(0, 0, 0);
+  font-size: 15px;
 }
 .links2 img {
   width: 70%;
@@ -117,7 +126,7 @@ body {
   scroll-behavior: smooth;
   scroll-snap-type: mandatory;
   width: 100%;
-  background-image: url(img/Architecture/pexels-steve-johnson-9841363.jpg);
+  background-image: url(Stocks/2f001f188054373.65a03a112cae9.png);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -173,7 +182,6 @@ body {
   height: 100%;
   padding: 20px;
   color: rgb(255, 255, 255);
-  background-color: #ffffff;
 }
 
 .service1 {
@@ -209,7 +217,7 @@ body {
 }
 
 .content1 h3 {
-  font-size: 16px;
+  font-size: 21px;
   font-weight: 100;
 }
 
@@ -250,7 +258,7 @@ body {
 }
 
 .box1assets h3 {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 200;
 }
 
@@ -269,6 +277,9 @@ body {
   gap: 30px;
   overflow: hidden;
   z-index: 999999;
+}
+.ref p {
+  font-size: 18px;
 }
 
 .threeprojectsboxes {
